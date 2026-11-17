@@ -1,0 +1,1057 @@
+[
+  {
+    "previous_manifest": "code/accuracy_structure/solver_source_manifest.json",
+    "previous_manifest_sha256": "024a9a36d875206fb54b6528207176cc9a5bbab5cbfaf57bcc5accd9e9b1df58",
+    "original_source_records": [
+      {
+        "file": "original_solver/rev_scalar_equation.m",
+        "source_id": "section41_revision/rev_scalar_equation.m",
+        "source_sha256": "c302a7efa541113a3c0f26b2d673ff626f84a00fac7134952b434e5f3e3733b4",
+        "release_sha256": "c302a7efa541113a3c0f26b2d673ff626f84a00fac7134952b434e5f3e3733b4",
+        "packaging_change": "None; copied unchanged."
+      },
+      {
+        "file": "original_solver/rev_scalar_solve.m",
+        "source_id": "section41_revision/rev_scalar_solve.m",
+        "source_sha256": "5e861a23580aa2637175a11853b78d25fb7441349d67938cf72c9c1301e1e7a4",
+        "release_sha256": "5e861a23580aa2637175a11853b78d25fb7441349d67938cf72c9c1301e1e7a4",
+        "packaging_change": "None; copied unchanged."
+      },
+      {
+        "file": "original_solver/rev_onsager_scalar.m",
+        "source_id": "section41_revision/rev_onsager_scalar.m",
+        "source_sha256": "467f10f0a30217b7ea39ae8c173cd0bc4e074dda52d536a54dfd235d27cb23b3",
+        "release_sha256": "467f10f0a30217b7ea39ae8c173cd0bc4e074dda52d536a54dfd235d27cb23b3",
+        "packaging_change": "None; copied unchanged."
+      },
+      {
+        "file": "original_solver/rev_dvd_scalar.m",
+        "source_id": "section41_revision/rev_dvd_scalar.m",
+        "source_sha256": "36d7d872424d7148ff5cd12dcd2c1da2d49e3043db251cf3b1d461afdbe8537b",
+        "release_sha256": "36d7d872424d7148ff5cd12dcd2c1da2d49e3043db251cf3b1d461afdbe8537b",
+        "packaging_change": "None; copied unchanged."
+      },
+      {
+        "file": "original_solver/rev_power_sum.m",
+        "source_id": "section41_revision/rev_power_sum.m",
+        "source_sha256": "88eb08f5e5ff47e96962388cf59238cf2b91ec18cc3c63fa7a2822272ada0bf9",
+        "release_sha256": "88eb08f5e5ff47e96962388cf59238cf2b91ec18cc3c63fa7a2822272ada0bf9",
+        "packaging_change": "None; copied unchanged."
+      },
+      {
+        "file": "original_solver/fallback_step.m",
+        "source_id": "dvd_pc_firstorder_fallback/fallback_step.m",
+        "source_sha256": "35cb6e67fe173888c1ee0f87079500bcd45851642009b885da1f0ea5767ff004",
+        "release_sha256": "35cb6e67fe173888c1ee0f87079500bcd45851642009b885da1f0ea5767ff004",
+        "packaging_change": "None; copied unchanged."
+      },
+      {
+        "file": "original_solver/fallback_onsager_step.m",
+        "source_id": "dvd_pc_firstorder_fallback/fallback_onsager_step.m",
+        "source_sha256": "de9e4947e4fdc133bc8394f0664d63af2a42fd7207446627b670289fdbe10943",
+        "release_sha256": "de9e4947e4fdc133bc8394f0664d63af2a42fd7207446627b670289fdbe10943",
+        "packaging_change": "None; copied unchanged."
+      },
+      {
+        "file": "original_solver/fallback_upwind_flux.m",
+        "source_id": "dvd_pc_firstorder_fallback/fallback_upwind_flux.m",
+        "source_sha256": "5e3bf67219e5e825725d6c885eba795c5b34f083bbabed7c55ff01be84285c7c",
+        "release_sha256": "5e3bf67219e5e825725d6c885eba795c5b34f083bbabed7c55ff01be84285c7c",
+        "packaging_change": "None; copied unchanged."
+      },
+      {
+        "file": "original_solver/fallback_initial.m",
+        "source_id": "dvd_pc_firstorder_fallback/fallback_initial.m",
+        "source_sha256": "6717b18755df012c60dca54a9740f22b3c2344e8611549eb3d355f5bb5dc1ce7",
+        "release_sha256": "6717b18755df012c60dca54a9740f22b3c2344e8611549eb3d355f5bb5dc1ce7",
+        "packaging_change": "None; copied unchanged."
+      },
+      {
+        "file": "original_solver/fallback_parameters.m",
+        "source_id": "dvd_pc_firstorder_fallback/fallback_parameters.m",
+        "source_sha256": "5bf5de0e97ac11eb764faf821b464a581fc52f8420b74d2a6070e4d6498575a6",
+        "release_sha256": "fdb97f5b04f6c1c1b7032cbb7034107f3c653ad482c8ea297f8cec846e8a7007",
+        "packaging_change": "Removed an obsolete sibling-folder addpath; numerical code unchanged."
+      },
+      {
+        "file": "original_solver/fallback_error.m",
+        "source_id": "dvd_pc_firstorder_fallback/fallback_error.m",
+        "source_sha256": "81ab6d7d1f40755427e71dcc2e24a2742579c7c46ebd58b15d2edb710135d2a1",
+        "release_sha256": "81ab6d7d1f40755427e71dcc2e24a2742579c7c46ebd58b15d2edb710135d2a1",
+        "packaging_change": "None; copied unchanged."
+      },
+      {
+        "file": "original_solver/dvd_parameters.m",
+        "source_id": "dvd_pc_tests/dvd_parameters.m",
+        "source_sha256": "d288df804d0525ab47b63738f2e59b530010e8ab04cce2d6cb33215fdcfe3fba",
+        "release_sha256": "d288df804d0525ab47b63738f2e59b530010e8ab04cce2d6cb33215fdcfe3fba",
+        "packaging_change": "None; copied unchanged."
+      },
+      {
+        "file": "original_solver/dvd_scalar_corrector.m",
+        "source_id": "dvd_pc_tests/dvd_scalar_corrector.m",
+        "source_sha256": "c0813bdde5f434baaaddab2c370aa96b6bae23b9b4b7df2535471bc32ec071d8",
+        "release_sha256": "c0813bdde5f434baaaddab2c370aa96b6bae23b9b4b7df2535471bc32ec071d8",
+        "packaging_change": "None; copied unchanged."
+      },
+      {
+        "file": "original_solver/dvd_scalar_equation.m",
+        "source_id": "dvd_pc_tests/dvd_scalar_equation.m",
+        "source_sha256": "0e9709ddac325f59df7ca04cc69cde15d9acd4efc3181038314f9493ac337760",
+        "release_sha256": "0e9709ddac325f59df7ca04cc69cde15d9acd4efc3181038314f9493ac337760",
+        "packaging_change": "None; copied unchanged."
+      },
+      {
+        "file": "original_solver/dvd_pressure_secant.m",
+        "source_id": "dvd_pc_tests/dvd_pressure_secant.m",
+        "source_sha256": "40459c50f5c16a36a2556e792b62dac24330c88dfb3a11e2f54b21ba446fbf9d",
+        "release_sha256": "40459c50f5c16a36a2556e792b62dac24330c88dfb3a11e2f54b21ba446fbf9d",
+        "packaging_change": "None; copied unchanged."
+      },
+      {
+        "file": "original_solver/s41_error.m",
+        "source_id": "dvd_pc_firstorder_fallback/section41/s41_error.m",
+        "source_sha256": "b49885d70f539bb647d527f3ada4efa4adcdf0c34c9cc6dbbfa26c31e300a8f1",
+        "release_sha256": "b49885d70f539bb647d527f3ada4efa4adcdf0c34c9cc6dbbfa26c31e300a8f1",
+        "packaging_change": "None; copied unchanged."
+      },
+      {
+        "file": "original_solver/accuracy_solve.m",
+        "source_id": "section41_revision/rev_solve.m",
+        "source_sha256": "14138352c657d559d773da062531fd5526a945d78b7fc03bf3471df14047c7ad",
+        "release_sha256": "48124d2030f85a601a32e6f61c1278f9448337e57570513f149f18516b2e67a1",
+        "packaging_change": "Portable name and outputs; removed cache metadata/storage. The fixed-step numerical and diagnostic loop is unchanged."
+      },
+      {
+        "file": "original_structure_solver/ms_tumor1d_solver.m",
+        "source_id": "code/nonlinear-new/ms_tumor1d_solver.m",
+        "source_sha256": "c2fa53715207d76101c1eb35ed7952e2e85cd725f33551def30918040ff2fcd5",
+        "release_sha256": "c2fa53715207d76101c1eb35ed7952e2e85cd725f33551def30918040ff2fcd5",
+        "packaging_change": "None; copied unchanged."
+      }
+    ]
+  },
+  {
+    "previous_manifest": "code/accuracy_structure/data_source_manifest.json",
+    "previous_manifest_sha256": "5795b1c4e446af54bf9f033549a7ef8009e8d9e40a0a481a26c136e0c7aa6d84",
+    "original_source_records": {
+      "sources": [
+        {
+          "source_id": "paper_temporal_curves",
+          "source_file_name": "temporal_convergence.fig",
+          "sha256": "4e88a292feb8da46d000f88f7a904127183ab0b966666e2999da6c788bfef369"
+        },
+        {
+          "source_id": "paper_spatial_curves",
+          "source_file_name": "spatial_convergence.fig",
+          "sha256": "22e2d623a36a3bcac911180b0d9c4ef87315c4f40739126b708b969943484e9e"
+        },
+        {
+          "source_id": "paper_total_structure_curves",
+          "source_file_name": "total_structure.fig",
+          "sha256": "5ec9e2fe8d66e6a0d350bea37e5072e4815d2b7bbee9d6cb087b50eccb698104"
+        },
+        {
+          "source_id": "paper_species_comparison_curves",
+          "source_file_name": "two_three_species3.fig",
+          "sha256": "08ef12d568f94920ed9a70d6016d1b34820d4ee390854e8a79aa8354a7327cf7"
+        },
+        {
+          "source_id": "accuracy_saved_archive",
+          "source_file_name": "convergence_data.mat",
+          "sha256": "10bb991a63236946fb2d8e9a1ffb6f73a56c6c9ecf8811e2730d5478b99f93dd"
+        },
+        {
+          "source_id": "first_order_structure_archive",
+          "source_file_name": "structure_results.mat",
+          "sha256": "56d357998d1b850641b21dc4f0f343a897e21d845982028f8648b5de26ed5a50"
+        },
+        {
+          "source_id": "first_order_structure_solver",
+          "source_file_name": "ms_tumor1d_solver.m",
+          "sha256": "c2fa53715207d76101c1eb35ed7952e2e85cd725f33551def30918040ff2fcd5"
+        },
+        {
+          "source_id": "first_order_structure_generator",
+          "source_file_name": "run_structure_check_example1_1d.m",
+          "sha256": "e28c35b3308eaf30719ba20a04b44e6fac4ac5384562c7abfe958d19b5c05008"
+        },
+        {
+          "source_id": "accuracy_temporal_errors",
+          "source_file_name": "temporal_errors.csv",
+          "sha256": "c76ca41394402b643b5566baa6563b0b76c68b91adb4fa7059e24be6bdb1da90"
+        },
+        {
+          "source_id": "accuracy_spatial_errors",
+          "source_file_name": "spatial_errors.csv",
+          "sha256": "baf148fd48845320800e590f9b6a3838576189e34f6c754c68808272715b44f3"
+        },
+        {
+          "source_id": "accuracy_spatial_time_sensitivity",
+          "source_file_name": "spatial_time_sensitivity.csv",
+          "sha256": "1bb5c03d1f6c168f5d261a6a03a1834c79b7e410c619e5efd54207db13ad02f9"
+        },
+        {
+          "source_id": "accuracy_temporal_reference_sensitivity",
+          "source_file_name": "temporal_reference_sensitivity.csv",
+          "sha256": "3771aab0aa599bcd58a05a355bc4f97bd4418de9dc6a79d525f4595a03166478"
+        },
+        {
+          "source_id": "accuracy_temporal_fallback_events",
+          "source_file_name": "temporal_fallback_events.csv",
+          "sha256": "56bf5f7d9e2f7aae3abfe6c300e03df75f4328815ced3fc5cdc696fbf5400770"
+        },
+        {
+          "source_id": "benchmark_cost",
+          "source_file_name": "cost.csv",
+          "sha256": "ef739f094214c6026dbf596c1fcc856a1098bb9281671b2003bfa8e70f998d0a"
+        },
+        {
+          "source_id": "benchmark_cost_g3",
+          "source_file_name": "cost_g3.csv",
+          "sha256": "29543d55cc4b864f826d09f296d5333bd220a42194c10a7e91a2c6ebff219de3"
+        },
+        {
+          "source_id": "benchmark_cost_g20",
+          "source_file_name": "cost_g20.csv",
+          "sha256": "53d48b7844dbe4af79466bda1178fdeebf97f480341b29741f8566ca939b3741"
+        },
+        {
+          "source_id": "benchmark_g3_first_r1",
+          "source_file_name": "cost_g3_first_r1.mat",
+          "sha256": "fd2cb0cfaf822b22f9770154d41357b8231913a26193cdbebc16b5b92f0593c9"
+        },
+        {
+          "source_id": "benchmark_g3_first_r2",
+          "source_file_name": "cost_g3_first_r2.mat",
+          "sha256": "8a5c0fe432b567f92c638d166aa1ce84b368109376b0253da70f16e187cba8cc"
+        },
+        {
+          "source_id": "benchmark_g3_first_r3",
+          "source_file_name": "cost_g3_first_r3.mat",
+          "sha256": "6bd489fd91b35b6076f6becbb6c87a05287d1910865f872cf62493b2d2656892"
+        },
+        {
+          "source_id": "benchmark_g3_dvd_r1",
+          "source_file_name": "cost_g3_dvd_r1.mat",
+          "sha256": "da2ae8e4a8a4e022b87b62789a08b8062196b1ea6a1e2761200c734bc9a6b287"
+        },
+        {
+          "source_id": "benchmark_g3_dvd_r2",
+          "source_file_name": "cost_g3_dvd_r2.mat",
+          "sha256": "377c64f6485104ec482e0936adeb24cc87f32c9c3737694619bb3b0ed107ff8b"
+        },
+        {
+          "source_id": "benchmark_g3_dvd_r3",
+          "source_file_name": "cost_g3_dvd_r3.mat",
+          "sha256": "e7027b88944b009bc860887b5cfe6b9cd78e681fb31e8db7dda9a1c110fdd4e6"
+        },
+        {
+          "source_id": "benchmark_g20_first_r1",
+          "source_file_name": "cost_g20_first_r1.mat",
+          "sha256": "78f24a1f0779ab67cc0bbd04d98bbf7d403acaf1b14efc163b1a63462427e56e"
+        },
+        {
+          "source_id": "benchmark_g20_first_r2",
+          "source_file_name": "cost_g20_first_r2.mat",
+          "sha256": "18bdfd40ef4f12a33770475ff77e021776a5faad02dfe9c2cb458e9823acd672"
+        },
+        {
+          "source_id": "benchmark_g20_first_r3",
+          "source_file_name": "cost_g20_first_r3.mat",
+          "sha256": "5bc5a2e1a348679fdcb1cf3d0378b94d9d25f0af3fd91552585af51eaaeba414"
+        },
+        {
+          "source_id": "benchmark_g20_dvd_r1",
+          "source_file_name": "cost_g20_dvd_r1.mat",
+          "sha256": "838b37619f63c5eba32565b4e990392b771d13c192407689be0edd39a64f2efd"
+        },
+        {
+          "source_id": "benchmark_g20_dvd_r2",
+          "source_file_name": "cost_g20_dvd_r2.mat",
+          "sha256": "90f5fb49d4df23405c1561570a3a533f01fad1eb398fa6888c8981b57d99f5a6"
+        },
+        {
+          "source_id": "benchmark_g20_dvd_r3",
+          "source_file_name": "cost_g20_dvd_r3.mat",
+          "sha256": "f21e450de23760d70b7d083a07dd1d1131c710cbb40ad0796b256948e92c5fa1"
+        },
+        {
+          "source_id": "figure3_production_rerun_20261117",
+          "source_file_name": "code/figure3_rerun/run_figure3.m",
+          "sha256": "47418302aa0e84bfd6fce14f865ff5e89dff764538ffe4e979d3e0c99c18f2ff"
+        }
+      ],
+      "files": [
+        {
+          "file": "data/Figure1/accuracy_saved_states.mat",
+          "sha256": "da69f6db35a263a88c61559a98b2edfb8802f798a443b0845d1c7d0e173ead79",
+          "source_ids": [
+            "accuracy_saved_archive"
+          ],
+          "transformation": "Whitelisted numerical states, errors and diagnostics; no code or function handles."
+        },
+        {
+          "file": "data/Figure1/panel01_curve01.csv",
+          "sha256": "2cd288d5660c3106a8f40f92f329e831f0f26c293de5fb100b993b672df43d03",
+          "source_ids": [
+            "paper_temporal_curves",
+            "paper_spatial_curves"
+          ],
+          "transformation": "Numeric line arrays and plain plotting metadata extracted from the final paper figures."
+        },
+        {
+          "file": "data/Figure1/panel01_curve02.csv",
+          "sha256": "eb0b4480aa7cf0a84109fe965036231ee612ac26bc9a0d87f2779a1b2eb8e0bf",
+          "source_ids": [
+            "paper_temporal_curves",
+            "paper_spatial_curves"
+          ],
+          "transformation": "Numeric line arrays and plain plotting metadata extracted from the final paper figures."
+        },
+        {
+          "file": "data/Figure1/panel01_curve03.csv",
+          "sha256": "73d7a5f321ea3b438435e0aa7e4a7dfca854a0f3ceabfb9d9f9bd60751821dd4",
+          "source_ids": [
+            "paper_temporal_curves",
+            "paper_spatial_curves"
+          ],
+          "transformation": "Numeric line arrays and plain plotting metadata extracted from the final paper figures."
+        },
+        {
+          "file": "data/Figure1/panel01_curve04.csv",
+          "sha256": "aeee28c385be543e80296c5d06125d129ad7aff7a6da0614b3d8eb3666f26c17",
+          "source_ids": [
+            "paper_temporal_curves",
+            "paper_spatial_curves"
+          ],
+          "transformation": "Numeric line arrays and plain plotting metadata extracted from the final paper figures."
+        },
+        {
+          "file": "data/Figure1/panel02_curve01.csv",
+          "sha256": "e90e215026581cb3796fe95afdb53e23cd6e97cb535ea487bea59c2c03960f87",
+          "source_ids": [
+            "paper_temporal_curves",
+            "paper_spatial_curves"
+          ],
+          "transformation": "Numeric line arrays and plain plotting metadata extracted from the final paper figures."
+        },
+        {
+          "file": "data/Figure1/panel02_curve02.csv",
+          "sha256": "1f3c7fe201b91ced2c28d19483fcea66039ca02e03a13b98752065b8f65918a9",
+          "source_ids": [
+            "paper_temporal_curves",
+            "paper_spatial_curves"
+          ],
+          "transformation": "Numeric line arrays and plain plotting metadata extracted from the final paper figures."
+        },
+        {
+          "file": "data/Figure1/plot_data.mat",
+          "sha256": "45d700e3b0302e3aee0ca9d59b046429baf431a2060eac9b395bfe4033870cc2",
+          "source_ids": [
+            "paper_temporal_curves",
+            "paper_spatial_curves"
+          ],
+          "transformation": "Numeric line arrays and plain plotting metadata extracted from the final paper figures."
+        },
+        {
+          "file": "data/Figure1/spatial_errors.csv",
+          "sha256": "baf148fd48845320800e590f9b6a3838576189e34f6c754c68808272715b44f3",
+          "source_ids": [
+            "accuracy_spatial_errors"
+          ],
+          "transformation": "Copied numeric CSV unchanged."
+        },
+        {
+          "file": "data/Figure1/spatial_time_sensitivity.csv",
+          "sha256": "1bb5c03d1f6c168f5d261a6a03a1834c79b7e410c619e5efd54207db13ad02f9",
+          "source_ids": [
+            "accuracy_spatial_time_sensitivity"
+          ],
+          "transformation": "Copied numeric CSV unchanged."
+        },
+        {
+          "file": "data/Figure1/temporal_errors.csv",
+          "sha256": "c76ca41394402b643b5566baa6563b0b76c68b91adb4fa7059e24be6bdb1da90",
+          "source_ids": [
+            "accuracy_temporal_errors"
+          ],
+          "transformation": "Copied numeric CSV unchanged."
+        },
+        {
+          "file": "data/Figure1/temporal_fallback_events.csv",
+          "sha256": "56bf5f7d9e2f7aae3abfe6c300e03df75f4328815ced3fc5cdc696fbf5400770",
+          "source_ids": [
+            "accuracy_temporal_fallback_events"
+          ],
+          "transformation": "Copied numeric CSV unchanged."
+        },
+        {
+          "file": "data/Figure1/temporal_reference_sensitivity.csv",
+          "sha256": "3771aab0aa599bcd58a05a355bc4f97bd4418de9dc6a79d525f4595a03166478",
+          "source_ids": [
+            "accuracy_temporal_reference_sensitivity"
+          ],
+          "transformation": "Copied numeric CSV unchanged."
+        },
+        {
+          "file": "data/Figure2/panel01_curve01.csv",
+          "sha256": "3e6f18071cf2d7109ae6fd22372194b5b636222cd3dbffe8d7e3885263759c0f",
+          "source_ids": [
+            "paper_total_structure_curves"
+          ],
+          "transformation": "Exact published plotted line arrays. All curves independently match the structure archive with maximum absolute difference zero."
+        },
+        {
+          "file": "data/Figure2/panel01_curve02.csv",
+          "sha256": "b44558cde1cb58fa056fb878e98f52aaa9c01a036db7ab4624cc45e6d81c2b5e",
+          "source_ids": [
+            "paper_total_structure_curves"
+          ],
+          "transformation": "Exact published plotted line arrays. All curves independently match the structure archive with maximum absolute difference zero."
+        },
+        {
+          "file": "data/Figure2/panel01_curve03.csv",
+          "sha256": "caadec5559b160b338a8786c3c8cdaa618e9dd26e236d1671c45858e9b182b85",
+          "source_ids": [
+            "paper_total_structure_curves"
+          ],
+          "transformation": "Exact published plotted line arrays. All curves independently match the structure archive with maximum absolute difference zero."
+        },
+        {
+          "file": "data/Figure2/panel01_curve04.csv",
+          "sha256": "779e04c0ddcf490ba0dad53932381f6227fbe4617eef5334348aa2d748baf8bd",
+          "source_ids": [
+            "paper_total_structure_curves"
+          ],
+          "transformation": "Exact published plotted line arrays. All curves independently match the structure archive with maximum absolute difference zero."
+        },
+        {
+          "file": "data/Figure2/panel02_curve01.csv",
+          "sha256": "dbfa468dfbecaa48035da3453880e2a63d36f13d411dfde86b7851c7e605d241",
+          "source_ids": [
+            "paper_total_structure_curves"
+          ],
+          "transformation": "Exact published plotted line arrays. All curves independently match the structure archive with maximum absolute difference zero."
+        },
+        {
+          "file": "data/Figure2/panel02_curve02.csv",
+          "sha256": "96573860838a1eb61465436727b5d8385817f88b0943395e8b227f65de64ad01",
+          "source_ids": [
+            "paper_total_structure_curves"
+          ],
+          "transformation": "Exact published plotted line arrays. All curves independently match the structure archive with maximum absolute difference zero."
+        },
+        {
+          "file": "data/Figure2/panel02_curve03.csv",
+          "sha256": "30d49d633ce481ad5b30db0289cbdb31102c2d219bc6aa9ccfcc1037a4a65bba",
+          "source_ids": [
+            "paper_total_structure_curves"
+          ],
+          "transformation": "Exact published plotted line arrays. All curves independently match the structure archive with maximum absolute difference zero."
+        },
+        {
+          "file": "data/Figure2/panel02_curve04.csv",
+          "sha256": "3cf3537a203616ac98399d7ab6193452ad058fa0313d28fefeb7330d814a4c6a",
+          "source_ids": [
+            "paper_total_structure_curves"
+          ],
+          "transformation": "Exact published plotted line arrays. All curves independently match the structure archive with maximum absolute difference zero."
+        },
+        {
+          "file": "data/Figure2/panel03_curve01.csv",
+          "sha256": "ea0727a773b945539bf2851342e764266650498c26b3d0e507e3c4eecf4b071b",
+          "source_ids": [
+            "paper_total_structure_curves"
+          ],
+          "transformation": "Exact published plotted line arrays. All curves independently match the structure archive with maximum absolute difference zero."
+        },
+        {
+          "file": "data/Figure2/panel03_curve02.csv",
+          "sha256": "37f4531198cb7ba24600bffd10be6e3be21c99431856c86eabe66085c9755313",
+          "source_ids": [
+            "paper_total_structure_curves"
+          ],
+          "transformation": "Exact published plotted line arrays. All curves independently match the structure archive with maximum absolute difference zero."
+        },
+        {
+          "file": "data/Figure2/plot_data.mat",
+          "sha256": "565672b0033da5dadbeeccfcfd2403a814e7d9691111332f35d6cf5578ceaea6",
+          "source_ids": [
+            "paper_total_structure_curves"
+          ],
+          "transformation": "Exact published plotted line arrays. All curves independently match the structure archive with maximum absolute difference zero."
+        },
+        {
+          "file": "data/Figure2/structure_history.mat",
+          "sha256": "d29b2caca5768743020459d5adb59eecab5d4e8698d5b99fc826901f12b59433",
+          "source_ids": [
+            "first_order_structure_archive"
+          ],
+          "transformation": "Numeric parameters, spatial grid, full saved history and diagnostics; removed solver function handles."
+        },
+        {
+          "file": "data/Figure3/panel01_curve01.csv",
+          "sha256": "a83fc8b6fc67d80bcd523680325327d54c6e7e8eb68cb6ddfa3b5fd8b5eb3240",
+          "source_ids": [
+            "figure3_production_rerun_20261117"
+          ],
+          "transformation": "Computed from independent two-/three-species production histories at paper parameters and Newton tolerance 1e-12; compared against archived paper curves."
+        },
+        {
+          "file": "data/Figure3/panel01_curve02.csv",
+          "sha256": "57be4166f911934ff299581a6da57c99d4f3f441cf925118283a60b3c5777cfd",
+          "source_ids": [
+            "figure3_production_rerun_20261117"
+          ],
+          "transformation": "Computed from independent two-/three-species production histories at paper parameters and Newton tolerance 1e-12; compared against archived paper curves."
+        },
+        {
+          "file": "data/Figure3/panel01_curve03.csv",
+          "sha256": "b6b5327551df827e1532e498fa4316882acc584f1edd67ce8cb5a19e9a3b9718",
+          "source_ids": [
+            "figure3_production_rerun_20261117"
+          ],
+          "transformation": "Computed from independent two-/three-species production histories at paper parameters and Newton tolerance 1e-12; compared against archived paper curves."
+        },
+        {
+          "file": "data/Figure3/panel02_curve01.csv",
+          "sha256": "171adfdf6a6272062fe1896f17331103bf339ba8e4248cc6ecbafec07d7bffaf",
+          "source_ids": [
+            "figure3_production_rerun_20261117"
+          ],
+          "transformation": "Computed from independent two-/three-species production histories at paper parameters and Newton tolerance 1e-12; compared against archived paper curves."
+        },
+        {
+          "file": "data/Figure3/panel02_curve02.csv",
+          "sha256": "7ed1d1956804808362d860934bb98cd7e8ec0aea13f5d99f14e8ebceb2f632d2",
+          "source_ids": [
+            "figure3_production_rerun_20261117"
+          ],
+          "transformation": "Computed from independent two-/three-species production histories at paper parameters and Newton tolerance 1e-12; compared against archived paper curves."
+        },
+        {
+          "file": "data/Figure3/panel02_curve03.csv",
+          "sha256": "dfe57e81a5467d37752bc63fbd98925f681ba122884219f3ed80c2a1b9d2e063",
+          "source_ids": [
+            "figure3_production_rerun_20261117"
+          ],
+          "transformation": "Computed from independent two-/three-species production histories at paper parameters and Newton tolerance 1e-12; compared against archived paper curves."
+        },
+        {
+          "file": "data/Figure3/panel02_curve04.csv",
+          "sha256": "360428a3c0630fce9ce70695d4d78949701ee0606f6692b824074c4a79b3fa8d",
+          "source_ids": [
+            "figure3_production_rerun_20261117"
+          ],
+          "transformation": "Computed from independent two-/three-species production histories at paper parameters and Newton tolerance 1e-12; compared against archived paper curves."
+        },
+        {
+          "file": "data/Figure3/panel03_curve01.csv",
+          "sha256": "4b323cf87ce6217c48037b4b02e677fb1c2683b9cf662cd71492e3e87ffe4af7",
+          "source_ids": [
+            "figure3_production_rerun_20261117"
+          ],
+          "transformation": "Computed from independent two-/three-species production histories at paper parameters and Newton tolerance 1e-12; compared against archived paper curves."
+        },
+        {
+          "file": "data/Figure3/panel03_curve02.csv",
+          "sha256": "42b37137c8231d794bf946337bf843cac72621ecccc467b53a2cd846a3406dfc",
+          "source_ids": [
+            "figure3_production_rerun_20261117"
+          ],
+          "transformation": "Computed from independent two-/three-species production histories at paper parameters and Newton tolerance 1e-12; compared against archived paper curves."
+        },
+        {
+          "file": "data/Figure3/panel03_curve03.csv",
+          "sha256": "7df5a168170206edd37572b9cc160fe7daab8bab7fdb0fa7ef3bb2f297ebf7f6",
+          "source_ids": [
+            "figure3_production_rerun_20261117"
+          ],
+          "transformation": "Computed from independent two-/three-species production histories at paper parameters and Newton tolerance 1e-12; compared against archived paper curves."
+        },
+        {
+          "file": "data/Figure3/panel03_curve04.csv",
+          "sha256": "8fcecc543e306c7c4cd470e9027db61b1b8b4e341464757d374e279ac4cc7d20",
+          "source_ids": [
+            "figure3_production_rerun_20261117"
+          ],
+          "transformation": "Computed from independent two-/three-species production histories at paper parameters and Newton tolerance 1e-12; compared against archived paper curves."
+        },
+        {
+          "file": "data/Figure3/panel03_curve05.csv",
+          "sha256": "b562b2a0dbda14037cc02d7a708612de052cc3352b01f9c8ea3d2621cba80735",
+          "source_ids": [
+            "figure3_production_rerun_20261117"
+          ],
+          "transformation": "Computed from independent two-/three-species production histories at paper parameters and Newton tolerance 1e-12; compared against archived paper curves."
+        },
+        {
+          "file": "data/Figure3/plot_data.mat",
+          "sha256": "eebc13f173acfce0d3fdaa1f285cc43f1ec89e5ac0e39b66eb2b2938e53ed92f",
+          "source_ids": [
+            "figure3_production_rerun_20261117"
+          ],
+          "transformation": "Computed from independent two-/three-species production histories at paper parameters and Newton tolerance 1e-12; compared against archived paper curves."
+        },
+        {
+          "file": "data/Table1/cost.csv",
+          "sha256": "ef739f094214c6026dbf596c1fcc856a1098bb9281671b2003bfa8e70f998d0a",
+          "source_ids": [
+            "benchmark_cost"
+          ],
+          "transformation": "Copied measured timing CSV unchanged."
+        },
+        {
+          "file": "data/Table1/cost_g20.csv",
+          "sha256": "53d48b7844dbe4af79466bda1178fdeebf97f480341b29741f8566ca939b3741",
+          "source_ids": [
+            "benchmark_cost_g20"
+          ],
+          "transformation": "Copied measured timing CSV unchanged."
+        },
+        {
+          "file": "data/Table1/cost_g3.csv",
+          "sha256": "29543d55cc4b864f826d09f296d5333bd220a42194c10a7e91a2c6ebff219de3",
+          "source_ids": [
+            "benchmark_cost_g3"
+          ],
+          "transformation": "Copied measured timing CSV unchanged."
+        },
+        {
+          "file": "data/Table1/recorded_timing_runs.mat",
+          "sha256": "c2bb6c1f936c360b230653aec548be8339df4c4d78472d0adc3dfe841ba7f1ca",
+          "source_ids": [
+            "benchmark_g3_first_r1",
+            "benchmark_g3_first_r2",
+            "benchmark_g3_first_r3",
+            "benchmark_g3_dvd_r1",
+            "benchmark_g3_dvd_r2",
+            "benchmark_g3_dvd_r3",
+            "benchmark_g20_first_r1",
+            "benchmark_g20_first_r2",
+            "benchmark_g20_first_r3",
+            "benchmark_g20_dvd_r1",
+            "benchmark_g20_dvd_r2",
+            "benchmark_g20_dvd_r3"
+          ],
+          "transformation": "Recorded terminal states, timing summaries, MATLAB version and platform; source-code snapshots and absolute paths removed."
+        },
+        {
+          "file": "data/Figure3/archived_plot_data.mat",
+          "sha256": "25360c08ddb5552ed30355043cd00fcd184cf8736072a866a4585f4da58f4490",
+          "source_ids": [
+            "paper_species_comparison_curves"
+          ],
+          "transformation": "Pure numerical archive reference."
+        },
+        {
+          "file": "data/Figure3/production_archive_comparison.csv",
+          "sha256": "6392590206a76795b9e5524a97092de49549023dc3456b2e80cac76276b59bbb",
+          "source_ids": [
+            "figure3_production_rerun_20261117"
+          ],
+          "transformation": "Independent production run; complete diagnostics and prescribed field snapshots."
+        },
+        {
+          "file": "data/Figure3/production_checks.mat",
+          "sha256": "979ac2470f8c6bfb4f0017c1200db257deedea5b61bf1e8ae5d53ac611d3e42d",
+          "source_ids": [
+            "figure3_production_rerun_20261117"
+          ],
+          "transformation": "Independent production run; complete diagnostics and prescribed field snapshots."
+        },
+        {
+          "file": "data/Figure3/production_history_m2.mat",
+          "sha256": "bcc138e2af25bc4b7a2ca6ab7b5cdd6fddd4b8c5f4ffebccb6cf874e773bc330",
+          "source_ids": [
+            "figure3_production_rerun_20261117"
+          ],
+          "transformation": "Independent production run; complete diagnostics and prescribed field snapshots."
+        },
+        {
+          "file": "data/Figure3/production_history_m3.mat",
+          "sha256": "9d6799e654c34f5d096ba04a96e54b8045422178d72f5ec187b73d6f6d780fbf",
+          "source_ids": [
+            "figure3_production_rerun_20261117"
+          ],
+          "transformation": "Independent production run; complete diagnostics and prescribed field snapshots."
+        },
+        {
+          "file": "data/Figure3/production_mass_fractions_m2.csv",
+          "sha256": "9e7943f57fa5ba88c22723394a9d943db2be527c51f8e2064ee5f36a5ee8f3f2",
+          "source_ids": [
+            "figure3_production_rerun_20261117"
+          ],
+          "transformation": "Independent production run; complete diagnostics and prescribed field snapshots."
+        },
+        {
+          "file": "data/Figure3/production_mass_fractions_m3.csv",
+          "sha256": "7024cad78f90e472c6c25e27d44feb086b1c9301da155357b914ea4aacaba3da",
+          "source_ids": [
+            "figure3_production_rerun_20261117"
+          ],
+          "transformation": "Independent production run; complete diagnostics and prescribed field snapshots."
+        },
+        {
+          "file": "data/Figure3/production_profiles_t1_m2.csv",
+          "sha256": "c650b5e0559985eaeb01c0701e6e4efe065cbe5d0878ce032bbfd79303717e4c",
+          "source_ids": [
+            "figure3_production_rerun_20261117"
+          ],
+          "transformation": "Independent production run; complete diagnostics and prescribed field snapshots."
+        },
+        {
+          "file": "data/Figure3/production_profiles_t1_m3.csv",
+          "sha256": "b6bf31d7cbec1d9c775f114c2b57be5f3ea58630e16fee889c1a5e249681fd36",
+          "source_ids": [
+            "figure3_production_rerun_20261117"
+          ],
+          "transformation": "Independent production run; complete diagnostics and prescribed field snapshots."
+        },
+        {
+          "file": "data/Figure3/production_structure_summary.csv",
+          "sha256": "0042138153cacef5c85a071674bcfbb23e4f2b964e55637388b66f5e4bbfd17c",
+          "source_ids": [
+            "figure3_production_rerun_20261117"
+          ],
+          "transformation": "Independent production run; complete diagnostics and prescribed field snapshots."
+        }
+      ],
+      "notes": {
+        "figure1_numeric_comparison": "All final-paper temporal and spatial curve ordinates match the original error archive exactly (maximum absolute difference 0).",
+        "figure2_numeric_comparison": "All 10 density/pressure/energy/mass curves match the saved first-order structure history exactly (maximum absolute difference 0).",
+        "newton_tolerance_difference": "The exact Figure 2 structure archive and its original generator use 1e-11; the manuscript states a general default 1e-12. The release preserves the archived value and documents this difference.",
+        "timings": "Historical timing records for three alternating repetitions per scheme and gamma are present. Their medians reproduce Table 1. Wall-clock times depend on hardware and load; a fresh run is not expected to recover the same seconds.",
+        "validation_scope": "Saved-data redraws of all 6 figures and 3 tables were executed in MATLAB R2023a. First-order and PC solver smoke checks passed. Two complete Figure3 production runs were executed, with nonnegativity, pressure bound, species mass monotonicity, energy dissipation and aggregation checks.",
+        "archived_figure3_two_species_comparison": "All two-species density curves at t=1 match the saved structure history exactly (maximum absolute difference 0).",
+        "figure3_production": "Two and three species were independently recomputed for N=2000, dt=1e-4, T=2, gamma=20, tolerance 1e-12; all 20000 steps completed. Recomputed curves differ from archived paper curves by at most 2.5776e-9. Complete numeric histories and a reusable production driver are included."
+      }
+    }
+  },
+  {
+    "previous_manifest": "code/examples/source_manifest.json",
+    "previous_manifest_sha256": "65380fc3c1216f82b573193094ff96779e612c6fefc96cb191696533ac7dd1c1",
+    "original_source_records": [
+      {
+        "source_sha256": "cfcb017f0b944df1b3767162aa8fefb496236397aefc6165c358d4f3d83942a1",
+        "release": "code/examples/switching/run_example2_transition_1d.m",
+        "changes": [
+          "function run_example2_transition_1d()",
+          "clear; clc; close all;",
+          "outdir = fullfile(this_dir,'output_example2_conservative_remap_dt1e-4');"
+        ],
+        "source_id": "original_examples/example2/run_example2_transition_1d.m",
+        "release_sha256": "a9045479df49f46e90fb7f0fec808011fe969f6600d2157dadcc85460efad931"
+      },
+      {
+        "source_sha256": "6e803a15fdbdf9e85b8699710517b6e4de9c5950e185226aa382b2fa39420f83",
+        "release": "code/examples/switching/plot_example2_phi2_heatmap_single.m",
+        "changes": [
+          "function plot_example2_phi2_heatmap_single(dataFile)",
+          "opt.outputFormats = {'fig','png','eps','pdf'};",
+          "opt.showFigure = true;",
+          "outFolder = fullfile(fileparts(dataFile),opt.outputSubfolder);"
+        ],
+        "source_id": "original_examples/example2/plot_example2_phi2_heatmap_single.m",
+        "release_sha256": "a34d6dfa28343a24d8a1a316493a36881e2ed5e7abff9fb7cc8f20a7d30f5e11",
+        "interface_notes": "Require an explicit numeric checkpoint and output directory; headers updated to describe the portable interface."
+      },
+      {
+        "source_sha256": "dd492bb6492316101603d2b3612d75cfd4467e208a782511fa14f199fb1c9248",
+        "release": "code/examples/stiff_pressure/run_section4_4_stiff_pressure.m",
+        "changes": [
+          "function run_section4_4_stiff_pressure()",
+          "clear; clc; close all;",
+          "outputDir = fullfile(thisDir,'output_section4_4_stiff_pressure');",
+          "and six gamma values."
+        ],
+        "source_id": "original_examples/example3_stiff_pressure/section4_4_stiff_pressure_fixed/run_section4_4_stiff_pressure.m",
+        "release_sha256": "aaae22fbb9396a85b826df7877aa49d27a22d6a58ea8f35bc86a3a398f1e237b"
+      },
+      {
+        "source_sha256": "2003f064f46ef72c45059941e098f27118d6767a659e8b4ef76b29b8d3595ad0",
+        "release": "code/examples/stiff_pressure/plot_section4_4_density_pressure.m",
+        "changes": [
+          "function plot_section4_4_density_pressure(dataFile)",
+          "opt.outputFormats = {'fig','png','eps','pdf'};",
+          "opt.showFigure = true;",
+          "outFolder = fullfile(fileparts(dataFile),opt.outputSubfolder);"
+        ],
+        "source_id": "original_examples/example3_stiff_pressure/section4_4_stiff_pressure_fixed/plot_section4_4_density_pressure.m",
+        "release_sha256": "105bf06638e97ff9cb363bb2dd1fc690a24ef5daeb56246d62515cfa8321b973",
+        "interface_notes": "Require an explicit numeric checkpoint and output directory; headers updated to describe the portable interface."
+      },
+      {
+        "source_sha256": "91fc150db7e76379f9c4c0be84f0a677ac7670986af414e16e5a4931edd2b815",
+        "release": "code/examples/stiff_pressure/make_section4_4_tables.m",
+        "changes": [
+          "function make_section4_4_tables()",
+          "dataFile = locate_latest_data_file();",
+          "outFolder = fullfile(fileparts(dataFile),'tables');",
+          "section4_4_table3_errors",
+          "section4_4_table4_diagnostics",
+          "Table 3: field and interface errors",
+          "Table 4: Hele--Shaw diagnostics",
+          "$\\\\mathcal H_{\\\\gamma,\\\\eta}$"
+        ],
+        "source_id": "original_examples/example3_stiff_pressure/section4_4_stiff_pressure_fixed/make_section4_4_tables.m",
+        "release_sha256": "e84fa993f64a57cfa6c860802ce60afad5133d5f6eae0dffaf5770f341eb6f7d",
+        "interface_notes": "Require an explicit numeric checkpoint and output directory; headers updated to describe the portable interface."
+      },
+      {
+        "source_sha256": "2a7551f2267563e988ccea03cd26f09a23c0ee98af663b52db1bfe04a04570b0",
+        "release": "code/examples/two_dimensional/run_example4_2d_multispecies_v5.m",
+        "changes": [
+          "function run_example4_2d_multispecies_v5()",
+          "clear; clc; close all;",
+          "par.gamma = 3;",
+          "par.T = 3.;",
+          "par.snapshot_times = [0.0:0.1:3];",
+          "outdir = fullfile(this_dir,'output_example4_conservative_remap_2d_v5_gamma3');"
+        ],
+        "source_id": "original_examples/example4/run_example4_2d_multispecies_v5.m",
+        "release_sha256": "a0840b98c2bf1bb093755902f64f3c056b2f0ddd167676ca5c5d2bef81fcd4b6"
+      },
+      {
+        "source_sha256": "e26d36cd4f9511dfed885bf76c6f73587710cf0c0d1ceab007f763b13cee30da",
+        "release": "code/examples/two_dimensional/plot_example4_2d_paper_gamma20.m",
+        "changes": [
+          "fig = figure('Color', 'w', 'Units', 'centimeters', ..."
+        ],
+        "source_id": "original_examples/example4/plot_example4_2d_paper_gamma20.m",
+        "release_sha256": "5c9c1248911b1179fea88e6c9b22891b68c3b18d734d0b496adedc3315de42b5",
+        "packaging_notes": [
+          "Select actual stored manuscript times 0,1,2.5.",
+          "Use the manuscript plotting window [-8,8] for both rows.",
+          "Report simplex residual only on occupied cells n>0; no numerical fields or solver updates are changed."
+        ]
+      },
+      {
+        "source_id": "original_examples/example2/output_example2_conservative_remap_dt1e-4/example2_data_conservative_remap.mat",
+        "source_sha256": "f5f1a52aaaf4d07e7852b0ef6882ad064d017360394aec6464c3ad4e88075d46",
+        "release_files": [
+          "data/Figure4/switching_data.mat"
+        ],
+        "processing": "Numeric array and parameter extraction only; retain exact selected snapshot times and exclude unrelated diagnostics/plots."
+      },
+      {
+        "source_id": "original_examples/example3_stiff_pressure/section4_4_stiff_pressure_fixed/output_section4_4_stiff_pressure/section4_4_stiff_pressure_data.mat",
+        "source_sha256": "8c80a9e87e93d8eb79a2452d3c8ef80fb7d470e4b06e52b69d5a95e7573f0ebd",
+        "release_files": [
+          "data/Figure5/stiff_pressure_data.mat",
+          "data/Table2/stiff_pressure_data.mat",
+          "data/Table3/stiff_pressure_data.mat"
+        ],
+        "processing": "Numeric array and parameter extraction only; retain exact selected snapshot times and exclude unrelated diagnostics/plots."
+      },
+      {
+        "source_id": "original_examples/example4/example4_2d_multispecies_output/example4_2d_multispecies_data.mat",
+        "source_sha256": "452dda4b9046fb3f5c03f59ca83dc867f18cd1dbde12590a1be6a97c17f0d759",
+        "release_files": [
+          "data/Figure6/gamma20_data.mat"
+        ],
+        "processing": "Numeric array and parameter extraction only; retain exact selected snapshot times and exclude unrelated diagnostics/plots."
+      },
+      {
+        "source_id": "original_examples/example4/output_example4_conservative_remap_2d_v5_gamma3/example4_2d_multispecies_data.mat",
+        "source_sha256": "0a3746dccbe4374260c2ecf06a83a2267a924773bd9e1dfd296b3898c9fbcf99",
+        "release_files": [
+          "data/Figure6/gamma3_data.mat"
+        ],
+        "processing": "Numeric array and parameter extraction only; retain exact selected snapshot times and exclude unrelated diagnostics/plots."
+      },
+      {
+        "source_id": "original_examples/example4/plot_example4_2d_paper_gamma3.m",
+        "source_sha256": "e09a68be05a991e40242d1bf7b3bb873adae8362bb582bbd13a5eb87cd9aeef2",
+        "role": "Gamma3 row layout and color-style reference; historical last-panel snapshot substitution corrected in the public reproduction wrapper."
+      }
+    ]
+  },
+  {
+    "previous_manifest": "code/figure3_rerun/production_source_manifest.json",
+    "previous_manifest_sha256": "1727aa6a4b333cff986ac329f088ef595762b52a938d11c4bc41d5edceb94d46",
+    "original_source_records": {
+      "source_id": "figure3_production_rerun_20261117",
+      "status": "Completed independent two-species and three-species production simulations.",
+      "parameters": {
+        "domain": [
+          -10,
+          10
+        ],
+        "gamma": 20,
+        "N": 2000,
+        "time_step": 0.0001,
+        "T": 2,
+        "homeostatic_pressure": 1,
+        "two_species_growth_coefficients": [
+          10,
+          2
+        ],
+        "three_species_growth_coefficients": [
+          10,
+          10,
+          2
+        ],
+        "newton_tolerance": 1e-12,
+        "field_snapshot_spacing": 0.1,
+        "diagnostic_time_levels": 20001
+      },
+      "method": "First-order frozen-mobility scalar Onsager density solve, normalized frozen-pressure diagonal reaction flow, and implicit conservative pressure-ordered upwind remapping.",
+      "initial_data": "Cell-center samples of case_a; f=0.5*(1-tanh((x-0.25)/0.03)), s=0.5*(1+tanh((x+0.9)/0.05)); fractions [f*(1-s),f*s,1-f]. Residual forms only reduce floating-point reconstruction error.",
+      "implementation": {
+        "scalar_step": "Copied original scalar density/Newton functions without numerical changes; only the public function name changed.",
+        "reaction": "The exact normalized diagonal matrix exponential, evaluated simultaneously for all species columns.",
+        "transport": "The original implicit pressure-ordered remapping with array width generalized from 2 to m; species reconstruction uses n_i=n*phi_i for each column.",
+        "no_changes": "No time adaptation, new limiter, altered growth law, changed grid, or changed timestep."
+      },
+      "original_scalar_and_transport_source_id": "original_first_order_solver/ms_tumor1d_solver.m",
+      "original_solver_sha256": "c2fa53715207d76101c1eb35ed7952e2e85cd725f33551def30918040ff2fcd5",
+      "archived_paper_plot_sha256": "25360c08ddb5552ed30355043cd00fcd184cf8736072a866a4585f4da58f4490",
+      "archive_comparison": {
+        "maximum_absolute_curve_difference": 2.5775676038009e-09,
+        "curve_count": 12,
+        "details_file": "data/Figure3/production_archive_comparison.csv",
+        "interpretation": "Numerically close, not bitwise identical. Original archived two-species generation used 1e-11; this new production run uses the paper default 1e-12."
+      },
+      "validation": {
+        "aggregation_preflight_max_abs_difference": 2.220446049250313e-16,
+        "original_two_species_preflight_max_abs_difference": 4.440892098500626e-16,
+        "preflight_grid": 80,
+        "preflight_steps": 10,
+        "production_summary_file": "data/Figure3/production_structure_summary.csv",
+        "production_checks_file": "data/Figure3/production_checks.mat",
+        "redraw": "The replacement plot_data.mat was rendered successfully using reproduce_figure3 and visually checked."
+      },
+      "runtime": "MATLAB R2023a on maci64. Production simulations completed with native process permissions after a sandbox license-thread failure. This was not a numerical failure.",
+      "code_files": [
+        {
+          "file": "code/figure3_rerun/check_figure3_aggregation.m",
+          "sha256": "ceac075797f615dfc5e82da6c936c99a53df2b85f7826320a647b37bbc8745d2"
+        },
+        {
+          "file": "code/figure3_rerun/fig3_compatible_remap.m",
+          "sha256": "0620063ca2d42e8111655f22b7246c006d2f872c55a8c4609413d97b8b8c2db0"
+        },
+        {
+          "file": "code/figure3_rerun/fig3_finalize_data.m",
+          "sha256": "5e2fe64b8055f536d61c3abed2aa3d0f1cf6cd5ac07ba37feb6814be398156c9"
+        },
+        {
+          "file": "code/figure3_rerun/fig3_initial.m",
+          "sha256": "11dfab966993beafa2826d86de6be79477630c5bc57aa814942bb1f5716f9308"
+        },
+        {
+          "file": "code/figure3_rerun/fig3_parameters.m",
+          "sha256": "b0a36e833bfaae7d6df2b4c002444901f86a5842ab3dd4dcb379fd0f4f9bae69"
+        },
+        {
+          "file": "code/figure3_rerun/fig3_scalar_step.m",
+          "sha256": "101e1fe4cc3a2020e449ebfcc27ba2c75912d96a249c979444f7e9f687de623c"
+        },
+        {
+          "file": "code/figure3_rerun/fig3_solve.m",
+          "sha256": "43aef3122daebe2c98e1dfdb901d6766f1e42c2dfa41ae149731e868b5bfd246"
+        },
+        {
+          "file": "code/figure3_rerun/run_figure3.m",
+          "sha256": "47418302aa0e84bfd6fce14f865ff5e89dff764538ffe4e979d3e0c99c18f2ff"
+        }
+      ],
+      "data_files": [
+        {
+          "file": "data/Figure3/archived_plot_data.mat",
+          "sha256": "25360c08ddb5552ed30355043cd00fcd184cf8736072a866a4585f4da58f4490"
+        },
+        {
+          "file": "data/Figure3/panel01_curve01.csv",
+          "sha256": "a83fc8b6fc67d80bcd523680325327d54c6e7e8eb68cb6ddfa3b5fd8b5eb3240"
+        },
+        {
+          "file": "data/Figure3/panel01_curve02.csv",
+          "sha256": "57be4166f911934ff299581a6da57c99d4f3f441cf925118283a60b3c5777cfd"
+        },
+        {
+          "file": "data/Figure3/panel01_curve03.csv",
+          "sha256": "b6b5327551df827e1532e498fa4316882acc584f1edd67ce8cb5a19e9a3b9718"
+        },
+        {
+          "file": "data/Figure3/panel02_curve01.csv",
+          "sha256": "171adfdf6a6272062fe1896f17331103bf339ba8e4248cc6ecbafec07d7bffaf"
+        },
+        {
+          "file": "data/Figure3/panel02_curve02.csv",
+          "sha256": "7ed1d1956804808362d860934bb98cd7e8ec0aea13f5d99f14e8ebceb2f632d2"
+        },
+        {
+          "file": "data/Figure3/panel02_curve03.csv",
+          "sha256": "dfe57e81a5467d37752bc63fbd98925f681ba122884219f3ed80c2a1b9d2e063"
+        },
+        {
+          "file": "data/Figure3/panel02_curve04.csv",
+          "sha256": "360428a3c0630fce9ce70695d4d78949701ee0606f6692b824074c4a79b3fa8d"
+        },
+        {
+          "file": "data/Figure3/panel03_curve01.csv",
+          "sha256": "4b323cf87ce6217c48037b4b02e677fb1c2683b9cf662cd71492e3e87ffe4af7"
+        },
+        {
+          "file": "data/Figure3/panel03_curve02.csv",
+          "sha256": "42b37137c8231d794bf946337bf843cac72621ecccc467b53a2cd846a3406dfc"
+        },
+        {
+          "file": "data/Figure3/panel03_curve03.csv",
+          "sha256": "7df5a168170206edd37572b9cc160fe7daab8bab7fdb0fa7ef3bb2f297ebf7f6"
+        },
+        {
+          "file": "data/Figure3/panel03_curve04.csv",
+          "sha256": "8fcecc543e306c7c4cd470e9027db61b1b8b4e341464757d374e279ac4cc7d20"
+        },
+        {
+          "file": "data/Figure3/panel03_curve05.csv",
+          "sha256": "b562b2a0dbda14037cc02d7a708612de052cc3352b01f9c8ea3d2621cba80735"
+        },
+        {
+          "file": "data/Figure3/plot_data.mat",
+          "sha256": "eebc13f173acfce0d3fdaa1f285cc43f1ec89e5ac0e39b66eb2b2938e53ed92f"
+        },
+        {
+          "file": "data/Figure3/production_archive_comparison.csv",
+          "sha256": "6392590206a76795b9e5524a97092de49549023dc3456b2e80cac76276b59bbb"
+        },
+        {
+          "file": "data/Figure3/production_checks.mat",
+          "sha256": "979ac2470f8c6bfb4f0017c1200db257deedea5b61bf1e8ae5d53ac611d3e42d"
+        },
+        {
+          "file": "data/Figure3/production_history_m2.mat",
+          "sha256": "bcc138e2af25bc4b7a2ca6ab7b5cdd6fddd4b8c5f4ffebccb6cf874e773bc330"
+        },
+        {
+          "file": "data/Figure3/production_history_m3.mat",
+          "sha256": "9d6799e654c34f5d096ba04a96e54b8045422178d72f5ec187b73d6f6d780fbf"
+        },
+        {
+          "file": "data/Figure3/production_mass_fractions_m2.csv",
+          "sha256": "9e7943f57fa5ba88c22723394a9d943db2be527c51f8e2064ee5f36a5ee8f3f2"
+        },
+        {
+          "file": "data/Figure3/production_mass_fractions_m3.csv",
+          "sha256": "7024cad78f90e472c6c25e27d44feb086b1c9301da155357b914ea4aacaba3da"
+        },
+        {
+          "file": "data/Figure3/production_profiles_t1_m2.csv",
+          "sha256": "c650b5e0559985eaeb01c0701e6e4efe065cbe5d0878ce032bbfd79303717e4c"
+        },
+        {
+          "file": "data/Figure3/production_profiles_t1_m3.csv",
+          "sha256": "b6bf31d7cbec1d9c775f114c2b57be5f3ea58630e16fee889c1a5e249681fd36"
+        },
+        {
+          "file": "data/Figure3/production_structure_summary.csv",
+          "sha256": "0042138153cacef5c85a071674bcfbb23e4f2b964e55637388b66f5e4bbfd17c"
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,366 @@
+[
+  {
+    "old_path": "code/figure3_rerun/fig3_solve.m",
+    "new_path": "code/+src/fig3_solve.m",
+    "status": "Moved and namespaced.",
+    "old_sha256": "43aef3122daebe2c98e1dfdb901d6766f1e42c2dfa41ae149731e868b5bfd246",
+    "new_sha256": "dfe199e232db8ae72a9d8256a13cf9fc499fab51cc8cab90964fc22920b1536f"
+  },
+  {
+    "old_path": "code/figure3_rerun/fig3_finalize_data.m",
+    "new_path": "code/+utils/fig3_finalize_data.m",
+    "status": "Moved and namespaced.",
+    "old_sha256": "5e2fe64b8055f536d61c3abed2aa3d0f1cf6cd5ac07ba37feb6814be398156c9",
+    "new_sha256": "d462b6f7ef8ece66c796d3bef6a8a4e6ed5812b42dd729da65dfe131a9e1a1b3"
+  },
+  {
+    "old_path": "code/figure3_rerun/fig3_scalar_step.m",
+    "new_path": "code/+src/fig3_scalar_step.m",
+    "status": "Moved and namespaced.",
+    "old_sha256": "101e1fe4cc3a2020e449ebfcc27ba2c75912d96a249c979444f7e9f687de623c",
+    "new_sha256": "101e1fe4cc3a2020e449ebfcc27ba2c75912d96a249c979444f7e9f687de623c"
+  },
+  {
+    "old_path": "code/figure3_rerun/fig3_compatible_remap.m",
+    "new_path": "code/+src/fig3_compatible_remap.m",
+    "status": "Moved and namespaced.",
+    "old_sha256": "0620063ca2d42e8111655f22b7246c006d2f872c55a8c4609413d97b8b8c2db0",
+    "new_sha256": "0620063ca2d42e8111655f22b7246c006d2f872c55a8c4609413d97b8b8c2db0"
+  },
+  {
+    "old_path": "code/figure3_rerun/check_figure3_aggregation.m",
+    "new_path": "code/+utils/check_figure3_aggregation.m",
+    "status": "Moved and namespaced.",
+    "old_sha256": "ceac075797f615dfc5e82da6c936c99a53df2b85f7826320a647b37bbc8745d2",
+    "new_sha256": "ad0d9abab7c35149d5a3f51ce9a0e48866176190d0cd90ae7b6a2af4adad8bd4"
+  },
+  {
+    "old_path": "code/figure3_rerun/run_figure3.m",
+    "new_path": "code/+src/run_figure3.m",
+    "status": "Moved and namespaced.",
+    "old_sha256": "47418302aa0e84bfd6fce14f865ff5e89dff764538ffe4e979d3e0c99c18f2ff",
+    "new_sha256": "1372faec3145e652bf32cf9f6ffeee9e6d3d02f77bc6b7df8f6fb95acad4bfc3"
+  },
+  {
+    "old_path": "code/figure3_rerun/fig3_parameters.m",
+    "new_path": "code/+model/fig3_parameters.m",
+    "status": "Moved and namespaced.",
+    "old_sha256": "b0a36e833bfaae7d6df2b4c002444901f86a5842ab3dd4dcb379fd0f4f9bae69",
+    "new_sha256": "b0a36e833bfaae7d6df2b4c002444901f86a5842ab3dd4dcb379fd0f4f9bae69"
+  },
+  {
+    "old_path": "code/figure3_rerun/fig3_initial.m",
+    "new_path": "code/+model/fig3_initial.m",
+    "status": "Moved and namespaced.",
+    "old_sha256": "11dfab966993beafa2826d86de6be79477630c5bc57aa814942bb1f5716f9308",
+    "new_sha256": "11dfab966993beafa2826d86de6be79477630c5bc57aa814942bb1f5716f9308"
+  },
+  {
+    "old_path": "code/accuracy_structure/reproduce_figure1.m",
+    "new_path": "code/+utils/reproduce_figure1.m",
+    "status": "Moved and namespaced.",
+    "old_sha256": "5b512c69c3601e0ed9c56a563f4ae425d46f326bd39665b7164a51c27b39a2d4",
+    "new_sha256": "7e28509fe19a6d82e77446706eac0b82ee31f59d2821fb30c2c25e0f35fc0cd0"
+  },
+  {
+    "old_path": "code/accuracy_structure/run_figure2.m",
+    "new_path": "code/+src/run_figure2.m",
+    "status": "Moved and namespaced.",
+    "old_sha256": "b9e3e0129f896bd453fc9ddfaaed7bae90054b2ab5c5c6a17c15433dfd5e8f05",
+    "new_sha256": "186db14d806905e76fcc7ec3434b235b1673609dd8d0454008101c3815eaaaf9"
+  },
+  {
+    "old_path": "code/accuracy_structure/reproduce_figure2.m",
+    "new_path": "code/+utils/reproduce_figure2.m",
+    "status": "Moved and namespaced.",
+    "old_sha256": "cafb49d3688f94aa0d93b7848eb5de5f1963e4ddc51b7c44e7bf2253d1593aed",
+    "new_sha256": "9c9785498676672c24f3a5b8edac4f4659c1a51440fa600c970a2021a54cd9e3"
+  },
+  {
+    "old_path": "code/accuracy_structure/run_figure1.m",
+    "new_path": "code/+src/run_figure1.m",
+    "status": "Moved and namespaced.",
+    "old_sha256": "e6b6aee4dc1dd2f7e47aa2936d4aba448ddc0899fa0664919b8bf698fea9f152",
+    "new_sha256": "40d70710a5ddb85237e1498998f126637ac20063c1be0d9192f43e6ebd1a4636"
+  },
+  {
+    "old_path": "code/accuracy_structure/accuracy_parameters.m",
+    "new_path": "code/+model/accuracy_parameters.m",
+    "status": "Moved and namespaced.",
+    "old_sha256": "6dc6654cb512eec67cd531bac5a4f255c3a0ed106f83dccfa45c7d00d5c2e243",
+    "new_sha256": "cc1ef4b75dfe7e834784dc64bd2e4155b5bde5e17ae769413ab0cbb8d9eed1cb"
+  },
+  {
+    "old_path": "code/accuracy_structure/import_manuscript_curves.m",
+    "new_path": "code/+utils/import_manuscript_curves.m",
+    "status": "Moved and namespaced.",
+    "old_sha256": "91fa45afa15532d562e8e7505214285a98c7a512763af96b224f2575020db513",
+    "new_sha256": "91fa45afa15532d562e8e7505214285a98c7a512763af96b224f2575020db513"
+  },
+  {
+    "old_path": "code/accuracy_structure/reproduce_figure3.m",
+    "new_path": "code/+utils/reproduce_figure3.m",
+    "status": "Moved and namespaced.",
+    "old_sha256": "3c324c548692601145374e46636a30ed81f991fd58dbdd88a5e9fd935d3fc169",
+    "new_sha256": "340acff9c2ced844f4bc34a590612b75ef63fe10d7e70b205c1f2a15dfbf8b9b"
+  },
+  {
+    "old_path": "code/accuracy_structure/render_saved_panels.m",
+    "new_path": "code/+utils/render_saved_panels.m",
+    "status": "Moved and namespaced.",
+    "old_sha256": "ee82ebe71a59ac0034acd62913f9b9bc978e4532670c4b1ebf772ce2ade56cf6",
+    "new_sha256": "ee82ebe71a59ac0034acd62913f9b9bc978e4532670c4b1ebf772ce2ade56cf6"
+  },
+  {
+    "old_path": "code/accuracy_structure/run_table1.m",
+    "new_path": "code/+src/run_table1.m",
+    "status": "Moved and namespaced.",
+    "old_sha256": "8844679c18f611106658b62da395e61ffebff51ab3ffd09558844fedf9e1db65",
+    "new_sha256": "83f2500009212ec0bd0870714286c8a957e37858203364c78cd505ac2466f285"
+  },
+  {
+    "old_path": "code/accuracy_structure/reproduce_table1.m",
+    "new_path": "code/+utils/reproduce_table1.m",
+    "status": "Moved and namespaced.",
+    "old_sha256": "2acdcc0502ffbb45b31ba658c096aa79e3241dc699300a1e54990b90105e2d87",
+    "new_sha256": "2acdcc0502ffbb45b31ba658c096aa79e3241dc699300a1e54990b90105e2d87"
+  },
+  {
+    "old_path": "code/accuracy_structure/original_structure_solver/ms_tumor1d_solver.m",
+    "new_path": "code/+src/ms_tumor1d_solver.m",
+    "status": "Moved and namespaced.",
+    "old_sha256": "c2fa53715207d76101c1eb35ed7952e2e85cd725f33551def30918040ff2fcd5",
+    "new_sha256": "c2fa53715207d76101c1eb35ed7952e2e85cd725f33551def30918040ff2fcd5"
+  },
+  {
+    "old_path": "code/accuracy_structure/original_solver/fallback_upwind_flux.m",
+    "new_path": "code/+src/fallback_upwind_flux.m",
+    "status": "Moved and namespaced.",
+    "old_sha256": "5e3bf67219e5e825725d6c885eba795c5b34f083bbabed7c55ff01be84285c7c",
+    "new_sha256": "5e3bf67219e5e825725d6c885eba795c5b34f083bbabed7c55ff01be84285c7c"
+  },
+  {
+    "old_path": "code/accuracy_structure/original_solver/rev_scalar_solve.m",
+    "new_path": "code/+src/rev_scalar_solve.m",
+    "status": "Moved and namespaced.",
+    "old_sha256": "5e861a23580aa2637175a11853b78d25fb7441349d67938cf72c9c1301e1e7a4",
+    "new_sha256": "860bd6f0fd642e5bf9891ac5bb3b250eb8947fc3ad95c320e15bd533e6e5b862"
+  },
+  {
+    "old_path": "code/accuracy_structure/original_solver/dvd_scalar_equation.m",
+    "new_path": "code/+src/dvd_scalar_equation.m",
+    "status": "Moved and namespaced.",
+    "old_sha256": "0e9709ddac325f59df7ca04cc69cde15d9acd4efc3181038314f9493ac337760",
+    "new_sha256": "482d52d6e7d88f24023cfee351d62a9f91a045672a289383b25b2db83559a1fc"
+  },
+  {
+    "old_path": "code/accuracy_structure/original_solver/rev_dvd_scalar.m",
+    "new_path": "code/+src/rev_dvd_scalar.m",
+    "status": "Moved and namespaced.",
+    "old_sha256": "36d7d872424d7148ff5cd12dcd2c1da2d49e3043db251cf3b1d461afdbe8537b",
+    "new_sha256": "5a4fc19da135f1359ae689d765120616804a8550221dfff130d9c04795035222"
+  },
+  {
+    "old_path": "code/accuracy_structure/original_solver/fallback_parameters.m",
+    "new_path": "code/+model/fallback_parameters.m",
+    "status": "Moved and namespaced.",
+    "old_sha256": "fdb97f5b04f6c1c1b7032cbb7034107f3c653ad482c8ea297f8cec846e8a7007",
+    "new_sha256": "8bf7ad2ef9420b9e2725e015a7712d07af4df862d96d9d78039d30aa769fd9fd"
+  },
+  {
+    "old_path": "code/accuracy_structure/original_solver/rev_power_sum.m",
+    "new_path": "code/+src/rev_power_sum.m",
+    "status": "Moved and namespaced.",
+    "old_sha256": "88eb08f5e5ff47e96962388cf59238cf2b91ec18cc3c63fa7a2822272ada0bf9",
+    "new_sha256": "88eb08f5e5ff47e96962388cf59238cf2b91ec18cc3c63fa7a2822272ada0bf9"
+  },
+  {
+    "old_path": "code/accuracy_structure/original_solver/rev_scalar_equation.m",
+    "new_path": "code/+src/rev_scalar_equation.m",
+    "status": "Moved and namespaced.",
+    "old_sha256": "c302a7efa541113a3c0f26b2d673ff626f84a00fac7134952b434e5f3e3733b4",
+    "new_sha256": "daf9d5a10ce6df302f4ed2f92883a6f302dac354420cea3031d4a7a54737dd78"
+  },
+  {
+    "old_path": "code/accuracy_structure/original_solver/rev_onsager_scalar.m",
+    "new_path": "code/+src/rev_onsager_scalar.m",
+    "status": "Moved and namespaced.",
+    "old_sha256": "467f10f0a30217b7ea39ae8c173cd0bc4e074dda52d536a54dfd235d27cb23b3",
+    "new_sha256": "208de49590836e6c1c1b0403c4cc9a016346cf260d6d73ee7351e0b5ee5e59de"
+  },
+  {
+    "old_path": "code/accuracy_structure/original_solver/s41_error.m",
+    "new_path": "code/+utils/s41_error.m",
+    "status": "Moved and namespaced.",
+    "old_sha256": "b49885d70f539bb647d527f3ada4efa4adcdf0c34c9cc6dbbfa26c31e300a8f1",
+    "new_sha256": "adb20846856b2576572c0e14ba8a134d4be61f6cb82026c6166c78732f9be9b2"
+  },
+  {
+    "old_path": "code/accuracy_structure/original_solver/accuracy_solve.m",
+    "new_path": "code/+src/accuracy_solve.m",
+    "status": "Moved and namespaced.",
+    "old_sha256": "48124d2030f85a601a32e6f61c1278f9448337e57570513f149f18516b2e67a1",
+    "new_sha256": "6900146328a0d6fd4424660fa9c4b5e61e0a93ecf59bfb095ba842d2a9deb5a6"
+  },
+  {
+    "old_path": "code/accuracy_structure/original_solver/dvd_scalar_corrector.m",
+    "new_path": "code/+src/dvd_scalar_corrector.m",
+    "status": "Moved and namespaced.",
+    "old_sha256": "c0813bdde5f434baaaddab2c370aa96b6bae23b9b4b7df2535471bc32ec071d8",
+    "new_sha256": "de2b68184f72126cbf2998b7e945d7fbf3f9cb08c109e5b429d1d00b087f3864"
+  },
+  {
+    "old_path": "code/accuracy_structure/original_solver/fallback_onsager_step.m",
+    "new_path": "code/+src/fallback_onsager_step.m",
+    "status": "Moved and namespaced.",
+    "old_sha256": "de9e4947e4fdc133bc8394f0664d63af2a42fd7207446627b670289fdbe10943",
+    "new_sha256": "de9e4947e4fdc133bc8394f0664d63af2a42fd7207446627b670289fdbe10943"
+  },
+  {
+    "old_path": "code/accuracy_structure/original_solver/dvd_pressure_secant.m",
+    "new_path": "code/+src/dvd_pressure_secant.m",
+    "status": "Moved and namespaced.",
+    "old_sha256": "40459c50f5c16a36a2556e792b62dac24330c88dfb3a11e2f54b21ba446fbf9d",
+    "new_sha256": "40459c50f5c16a36a2556e792b62dac24330c88dfb3a11e2f54b21ba446fbf9d"
+  },
+  {
+    "old_path": "code/accuracy_structure/original_solver/fallback_step.m",
+    "new_path": "code/+src/fallback_step.m",
+    "status": "Moved and namespaced.",
+    "old_sha256": "35cb6e67fe173888c1ee0f87079500bcd45851642009b885da1f0ea5767ff004",
+    "new_sha256": "6e070cdcae5d559972d5c33c6d419f821ddd836396a915e1c69b2db5d2934206"
+  },
+  {
+    "old_path": "code/accuracy_structure/original_solver/fallback_initial.m",
+    "new_path": "code/+model/fallback_initial.m",
+    "status": "Moved and namespaced.",
+    "old_sha256": "6717b18755df012c60dca54a9740f22b3c2344e8611549eb3d355f5bb5dc1ce7",
+    "new_sha256": "6717b18755df012c60dca54a9740f22b3c2344e8611549eb3d355f5bb5dc1ce7"
+  },
+  {
+    "old_path": "code/accuracy_structure/original_solver/fallback_error.m",
+    "new_path": "code/+utils/fallback_error.m",
+    "status": "Moved and namespaced.",
+    "old_sha256": "81ab6d7d1f40755427e71dcc2e24a2742579c7c46ebd58b15d2edb710135d2a1",
+    "new_sha256": "81ab6d7d1f40755427e71dcc2e24a2742579c7c46ebd58b15d2edb710135d2a1"
+  },
+  {
+    "old_path": "code/accuracy_structure/original_solver/dvd_parameters.m",
+    "new_path": "code/+model/dvd_parameters.m",
+    "status": "Moved and namespaced.",
+    "old_sha256": "d288df804d0525ab47b63738f2e59b530010e8ab04cce2d6cb33215fdcfe3fba",
+    "new_sha256": "d288df804d0525ab47b63738f2e59b530010e8ab04cce2d6cb33215fdcfe3fba"
+  },
+  {
+    "old_path": "code/examples/two_dimensional/run_figure6.m",
+    "new_path": "code/run_paper_case.m",
+    "status": "Consolidated into Figure6Gamma3 dispatch; removed the unverified gamma20 production facade.",
+    "old_sha256": "f724af6db769c36deaeec590f129954859e0e4bb562c406ac2fdf311b55a0960",
+    "new_sha256": "5853212ede7445b58a7dbf393f60abce5421e39ed076beb0d35297f95f55d278"
+  },
+  {
+    "old_path": "code/examples/two_dimensional/plot_example4_2d_paper_gamma20.m",
+    "new_path": "code/+utils/plot_example4_2d_paper_gamma20.m",
+    "status": "Moved and namespaced.",
+    "old_sha256": "5c9c1248911b1179fea88e6c9b22891b68c3b18d734d0b496adedc3315de42b5",
+    "new_sha256": "7ea1a0242d5a4ccf81432cd9ec7dd6a0df877046b052d98dc4f0eb8cdc1fa245"
+  },
+  {
+    "old_path": "code/examples/two_dimensional/reproduce_figure6.m",
+    "new_path": "code/+utils/reproduce_figure6.m",
+    "status": "Moved and namespaced.",
+    "old_sha256": "1ed68a4df1a0a021f312e27e6eba97b59706607806d7b9447569ec638716449b",
+    "new_sha256": "0daa1a43ee9f4106c02b25c0e676f63ee08c14d8e617b7f77f5d1e199e1d0322"
+  },
+  {
+    "old_path": "code/examples/two_dimensional/run_example4_2d_multispecies_v5.m",
+    "new_path": "code/+src/run_example4_2d_multispecies_v5.m",
+    "status": "Moved and namespaced.",
+    "old_sha256": "a0840b98c2bf1bb093755902f64f3c056b2f0ddd167676ca5c5d2bef81fcd4b6",
+    "new_sha256": "b362e4655e4da873d49d20e30584ce8cc51270b99dcada7090415cd0178398a2"
+  },
+  {
+    "old_path": "code/examples/stiff_pressure/reproduce_figure5.m",
+    "new_path": "code/+utils/reproduce_figure5.m",
+    "status": "Moved and namespaced.",
+    "old_sha256": "a8a0bdde557ccf24acfd84e938b390481a6004bfc561c8e3e2b6b107d4b3c4ad",
+    "new_sha256": "0015caea9b8f2ad1bb02f018b6e0182bbea1c0bb76e399d48e19297a8e020574"
+  },
+  {
+    "old_path": "code/examples/stiff_pressure/reproduce_table3.m",
+    "new_path": "code/+utils/reproduce_table3.m",
+    "status": "Moved and namespaced.",
+    "old_sha256": "cb246d5c1ffc1ddb5650fc5bd9b497ead6a1110ad27d92001f8c82b34b571dec",
+    "new_sha256": "f0e0c9e124d950ceff6f4b17b302a276bb43bb89ccad34315189122bc25d443d"
+  },
+  {
+    "old_path": "code/examples/stiff_pressure/run_section4_4_stiff_pressure.m",
+    "new_path": "code/+src/run_section4_4_stiff_pressure.m",
+    "status": "Moved and namespaced.",
+    "old_sha256": "aaae22fbb9396a85b826df7877aa49d27a22d6a58ea8f35bc86a3a398f1e237b",
+    "new_sha256": "0328b9b9ff087b11d76ceac813b4980175f7eb3f26a1e734cd62f736d61d14cf"
+  },
+  {
+    "old_path": "code/examples/stiff_pressure/reproduce_table2.m",
+    "new_path": "code/+utils/reproduce_table2.m",
+    "status": "Moved and namespaced.",
+    "old_sha256": "02d5d868277e02c255bd32b4c5817c1ab14541c9455475834d1c16228d2ae4a8",
+    "new_sha256": "d48b43703b8b32d1d7f45aa2215987623ae0607318d01a01f4f43f8b9b7cec1b"
+  },
+  {
+    "old_path": "code/examples/stiff_pressure/make_section4_4_tables.m",
+    "new_path": "code/+utils/make_section4_4_tables.m",
+    "status": "Moved and namespaced.",
+    "old_sha256": "e84fa993f64a57cfa6c860802ce60afad5133d5f6eae0dffaf5770f341eb6f7d",
+    "new_sha256": "2ddbf1ae6fbb4a964b947e6747b1ec9805a8382379039423c11f9c3313aecce1"
+  },
+  {
+    "old_path": "code/examples/stiff_pressure/plot_section4_4_density_pressure.m",
+    "new_path": "code/+utils/plot_section4_4_density_pressure.m",
+    "status": "Moved and namespaced.",
+    "old_sha256": "105bf06638e97ff9cb363bb2dd1fc690a24ef5daeb56246d62515cfa8321b973",
+    "new_sha256": "caa2edc222570002202fb694392d8793a431544c02b51ee1872a7198ca4cc0d4"
+  },
+  {
+    "old_path": "code/examples/switching/reproduce_figure4.m",
+    "new_path": "code/+utils/reproduce_figure4.m",
+    "status": "Moved and namespaced.",
+    "old_sha256": "d519c9548e6fc229479a0e788bec8327d0457823c0984bfc2958030fae70e9d1",
+    "new_sha256": "7fbd817948e3ebb9cda6aeea4eef08295f9422b76001ad42b5ad0df494c1246f"
+  },
+  {
+    "old_path": "code/examples/switching/plot_example2_phi2_heatmap_single.m",
+    "new_path": "code/+utils/plot_example2_phi2_heatmap_single.m",
+    "status": "Moved and namespaced.",
+    "old_sha256": "a34d6dfa28343a24d8a1a316493a36881e2ed5e7abff9fb7cc8f20a7d30f5e11",
+    "new_sha256": "a24232484ca68346c2da7e14bacc31980681238b9647e5ba63f81ced4a9fecc5"
+  },
+  {
+    "old_path": "code/examples/switching/run_example2_transition_1d.m",
+    "new_path": "code/+src/run_example2_transition_1d.m",
+    "status": "Moved and namespaced.",
+    "old_sha256": "a9045479df49f46e90fb7f0fec808011fe969f6600d2157dadcc85460efad931",
+    "new_sha256": "8842580583125d26ec9d75695ffa7111d13339cc933d46b96d035814564f5c92"
+  },
+  {
+    "old_path": "code/startup_paper.m",
+    "new_path": "code/startup_paper.m",
+    "status": "Updated for explicit package dispatch.",
+    "old_sha256": "11e54cbe408af14e54071cb801b9f68e85a17fb94cebc372717d5c29733a5fba",
+    "new_sha256": "d680e65d607965e8d1ee689eef41226ee72e912a095ef75e99f2f0c370032a01"
+  },
+  {
+    "old_path": "code/redraw_paper.m",
+    "new_path": "code/redraw_paper.m",
+    "status": "Updated for explicit package dispatch.",
+    "old_sha256": "107469f0e1db4c225cf6823bc297a33a883b3ef4eea7bfa904ab8d1dafc66510",
+    "new_sha256": "786d24c1a2f4c6bc095095f8a385772a66d2139f0c3d332ff1d6a1ec4b2e1706"
+  },
+  {
+    "old_path": "code/validate_release.m",
+    "new_path": "code/validate_release.m",
+    "status": "Updated for explicit package dispatch.",
+    "old_sha256": "fd5f14a15cd49884e9703178ea7766ae1d314a0ce5b4fdde8f6b6d53a54380f9",
+    "new_sha256": "c7d701dc113b766ca51da95d8d39c5aadb1a9eee6c43a909ef2e33989e6c7b25"
+  }
+]

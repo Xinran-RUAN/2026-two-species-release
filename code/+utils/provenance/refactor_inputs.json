@@ -1,0 +1,230 @@
+[
+  {
+    "source_id": "current_release_code/accuracy_structure/accuracy_parameters.m",
+    "sha256": "6dc6654cb512eec67cd531bac5a4f255c3a0ed106f83dccfa45c7d00d5c2e243"
+  },
+  {
+    "source_id": "current_release_code/accuracy_structure/data_source_manifest.json",
+    "sha256": "5795b1c4e446af54bf9f033549a7ef8009e8d9e40a0a481a26c136e0c7aa6d84"
+  },
+  {
+    "source_id": "current_release_code/accuracy_structure/import_manuscript_curves.m",
+    "sha256": "91fa45afa15532d562e8e7505214285a98c7a512763af96b224f2575020db513"
+  },
+  {
+    "source_id": "current_release_code/accuracy_structure/original_solver/accuracy_solve.m",
+    "sha256": "48124d2030f85a601a32e6f61c1278f9448337e57570513f149f18516b2e67a1"
+  },
+  {
+    "source_id": "current_release_code/accuracy_structure/original_solver/dvd_parameters.m",
+    "sha256": "d288df804d0525ab47b63738f2e59b530010e8ab04cce2d6cb33215fdcfe3fba"
+  },
+  {
+    "source_id": "current_release_code/accuracy_structure/original_solver/dvd_pressure_secant.m",
+    "sha256": "40459c50f5c16a36a2556e792b62dac24330c88dfb3a11e2f54b21ba446fbf9d"
+  },
+  {
+    "source_id": "current_release_code/accuracy_structure/original_solver/dvd_scalar_corrector.m",
+    "sha256": "c0813bdde5f434baaaddab2c370aa96b6bae23b9b4b7df2535471bc32ec071d8"
+  },
+  {
+    "source_id": "current_release_code/accuracy_structure/original_solver/dvd_scalar_equation.m",
+    "sha256": "0e9709ddac325f59df7ca04cc69cde15d9acd4efc3181038314f9493ac337760"
+  },
+  {
+    "source_id": "current_release_code/accuracy_structure/original_solver/fallback_error.m",
+    "sha256": "81ab6d7d1f40755427e71dcc2e24a2742579c7c46ebd58b15d2edb710135d2a1"
+  },
+  {
+    "source_id": "current_release_code/accuracy_structure/original_solver/fallback_initial.m",
+    "sha256": "6717b18755df012c60dca54a9740f22b3c2344e8611549eb3d355f5bb5dc1ce7"
+  },
+  {
+    "source_id": "current_release_code/accuracy_structure/original_solver/fallback_onsager_step.m",
+    "sha256": "de9e4947e4fdc133bc8394f0664d63af2a42fd7207446627b670289fdbe10943"
+  },
+  {
+    "source_id": "current_release_code/accuracy_structure/original_solver/fallback_parameters.m",
+    "sha256": "fdb97f5b04f6c1c1b7032cbb7034107f3c653ad482c8ea297f8cec846e8a7007"
+  },
+  {
+    "source_id": "current_release_code/accuracy_structure/original_solver/fallback_step.m",
+    "sha256": "35cb6e67fe173888c1ee0f87079500bcd45851642009b885da1f0ea5767ff004"
+  },
+  {
+    "source_id": "current_release_code/accuracy_structure/original_solver/fallback_upwind_flux.m",
+    "sha256": "5e3bf67219e5e825725d6c885eba795c5b34f083bbabed7c55ff01be84285c7c"
+  },
+  {
+    "source_id": "current_release_code/accuracy_structure/original_solver/rev_dvd_scalar.m",
+    "sha256": "36d7d872424d7148ff5cd12dcd2c1da2d49e3043db251cf3b1d461afdbe8537b"
+  },
+  {
+    "source_id": "current_release_code/accuracy_structure/original_solver/rev_onsager_scalar.m",
+    "sha256": "467f10f0a30217b7ea39ae8c173cd0bc4e074dda52d536a54dfd235d27cb23b3"
+  },
+  {
+    "source_id": "current_release_code/accuracy_structure/original_solver/rev_power_sum.m",
+    "sha256": "88eb08f5e5ff47e96962388cf59238cf2b91ec18cc3c63fa7a2822272ada0bf9"
+  },
+  {
+    "source_id": "current_release_code/accuracy_structure/original_solver/rev_scalar_equation.m",
+    "sha256": "c302a7efa541113a3c0f26b2d673ff626f84a00fac7134952b434e5f3e3733b4"
+  },
+  {
+    "source_id": "current_release_code/accuracy_structure/original_solver/rev_scalar_solve.m",
+    "sha256": "5e861a23580aa2637175a11853b78d25fb7441349d67938cf72c9c1301e1e7a4"
+  },
+  {
+    "source_id": "current_release_code/accuracy_structure/original_solver/s41_error.m",
+    "sha256": "b49885d70f539bb647d527f3ada4efa4adcdf0c34c9cc6dbbfa26c31e300a8f1"
+  },
+  {
+    "source_id": "current_release_code/accuracy_structure/original_structure_solver/ms_tumor1d_solver.m",
+    "sha256": "c2fa53715207d76101c1eb35ed7952e2e85cd725f33551def30918040ff2fcd5"
+  },
+  {
+    "source_id": "current_release_code/accuracy_structure/render_saved_panels.m",
+    "sha256": "ee82ebe71a59ac0034acd62913f9b9bc978e4532670c4b1ebf772ce2ade56cf6"
+  },
+  {
+    "source_id": "current_release_code/accuracy_structure/reproduce_figure1.m",
+    "sha256": "5b512c69c3601e0ed9c56a563f4ae425d46f326bd39665b7164a51c27b39a2d4"
+  },
+  {
+    "source_id": "current_release_code/accuracy_structure/reproduce_figure2.m",
+    "sha256": "cafb49d3688f94aa0d93b7848eb5de5f1963e4ddc51b7c44e7bf2253d1593aed"
+  },
+  {
+    "source_id": "current_release_code/accuracy_structure/reproduce_figure3.m",
+    "sha256": "3c324c548692601145374e46636a30ed81f991fd58dbdd88a5e9fd935d3fc169"
+  },
+  {
+    "source_id": "current_release_code/accuracy_structure/reproduce_table1.m",
+    "sha256": "2acdcc0502ffbb45b31ba658c096aa79e3241dc699300a1e54990b90105e2d87"
+  },
+  {
+    "source_id": "current_release_code/accuracy_structure/run_figure1.m",
+    "sha256": "e6b6aee4dc1dd2f7e47aa2936d4aba448ddc0899fa0664919b8bf698fea9f152"
+  },
+  {
+    "source_id": "current_release_code/accuracy_structure/run_figure2.m",
+    "sha256": "b9e3e0129f896bd453fc9ddfaaed7bae90054b2ab5c5c6a17c15433dfd5e8f05"
+  },
+  {
+    "source_id": "current_release_code/accuracy_structure/run_table1.m",
+    "sha256": "8844679c18f611106658b62da395e61ffebff51ab3ffd09558844fedf9e1db65"
+  },
+  {
+    "source_id": "current_release_code/accuracy_structure/solver_source_manifest.json",
+    "sha256": "024a9a36d875206fb54b6528207176cc9a5bbab5cbfaf57bcc5accd9e9b1df58"
+  },
+  {
+    "source_id": "current_release_code/examples/source_manifest.json",
+    "sha256": "65380fc3c1216f82b573193094ff96779e612c6fefc96cb191696533ac7dd1c1"
+  },
+  {
+    "source_id": "current_release_code/examples/stiff_pressure/make_section4_4_tables.m",
+    "sha256": "e84fa993f64a57cfa6c860802ce60afad5133d5f6eae0dffaf5770f341eb6f7d"
+  },
+  {
+    "source_id": "current_release_code/examples/stiff_pressure/plot_section4_4_density_pressure.m",
+    "sha256": "105bf06638e97ff9cb363bb2dd1fc690a24ef5daeb56246d62515cfa8321b973"
+  },
+  {
+    "source_id": "current_release_code/examples/stiff_pressure/reproduce_figure5.m",
+    "sha256": "a8a0bdde557ccf24acfd84e938b390481a6004bfc561c8e3e2b6b107d4b3c4ad"
+  },
+  {
+    "source_id": "current_release_code/examples/stiff_pressure/reproduce_table2.m",
+    "sha256": "02d5d868277e02c255bd32b4c5817c1ab14541c9455475834d1c16228d2ae4a8"
+  },
+  {
+    "source_id": "current_release_code/examples/stiff_pressure/reproduce_table3.m",
+    "sha256": "cb246d5c1ffc1ddb5650fc5bd9b497ead6a1110ad27d92001f8c82b34b571dec"
+  },
+  {
+    "source_id": "current_release_code/examples/stiff_pressure/run_section4_4_stiff_pressure.m",
+    "sha256": "aaae22fbb9396a85b826df7877aa49d27a22d6a58ea8f35bc86a3a398f1e237b"
+  },
+  {
+    "source_id": "current_release_code/examples/switching/plot_example2_phi2_heatmap_single.m",
+    "sha256": "a34d6dfa28343a24d8a1a316493a36881e2ed5e7abff9fb7cc8f20a7d30f5e11"
+  },
+  {
+    "source_id": "current_release_code/examples/switching/reproduce_figure4.m",
+    "sha256": "d519c9548e6fc229479a0e788bec8327d0457823c0984bfc2958030fae70e9d1"
+  },
+  {
+    "source_id": "current_release_code/examples/switching/run_example2_transition_1d.m",
+    "sha256": "a9045479df49f46e90fb7f0fec808011fe969f6600d2157dadcc85460efad931"
+  },
+  {
+    "source_id": "current_release_code/examples/two_dimensional/plot_example4_2d_paper_gamma20.m",
+    "sha256": "5c9c1248911b1179fea88e6c9b22891b68c3b18d734d0b496adedc3315de42b5"
+  },
+  {
+    "source_id": "current_release_code/examples/two_dimensional/reproduce_figure6.m",
+    "sha256": "1ed68a4df1a0a021f312e27e6eba97b59706607806d7b9447569ec638716449b"
+  },
+  {
+    "source_id": "current_release_code/examples/two_dimensional/run_example4_2d_multispecies_v5.m",
+    "sha256": "a0840b98c2bf1bb093755902f64f3c056b2f0ddd167676ca5c5d2bef81fcd4b6"
+  },
+  {
+    "source_id": "current_release_code/examples/two_dimensional/run_figure6.m",
+    "sha256": "f724af6db769c36deaeec590f129954859e0e4bb562c406ac2fdf311b55a0960"
+  },
+  {
+    "source_id": "current_release_code/figure3_rerun/check_figure3_aggregation.m",
+    "sha256": "ceac075797f615dfc5e82da6c936c99a53df2b85f7826320a647b37bbc8745d2"
+  },
+  {
+    "source_id": "current_release_code/figure3_rerun/fig3_compatible_remap.m",
+    "sha256": "0620063ca2d42e8111655f22b7246c006d2f872c55a8c4609413d97b8b8c2db0"
+  },
+  {
+    "source_id": "current_release_code/figure3_rerun/fig3_finalize_data.m",
+    "sha256": "5e2fe64b8055f536d61c3abed2aa3d0f1cf6cd5ac07ba37feb6814be398156c9"
+  },
+  {
+    "source_id": "current_release_code/figure3_rerun/fig3_initial.m",
+    "sha256": "11dfab966993beafa2826d86de6be79477630c5bc57aa814942bb1f5716f9308"
+  },
+  {
+    "source_id": "current_release_code/figure3_rerun/fig3_parameters.m",
+    "sha256": "b0a36e833bfaae7d6df2b4c002444901f86a5842ab3dd4dcb379fd0f4f9bae69"
+  },
+  {
+    "source_id": "current_release_code/figure3_rerun/fig3_scalar_step.m",
+    "sha256": "101e1fe4cc3a2020e449ebfcc27ba2c75912d96a249c979444f7e9f687de623c"
+  },
+  {
+    "source_id": "current_release_code/figure3_rerun/fig3_solve.m",
+    "sha256": "43aef3122daebe2c98e1dfdb901d6766f1e42c2dfa41ae149731e868b5bfd246"
+  },
+  {
+    "source_id": "current_release_code/figure3_rerun/production_source_manifest.json",
+    "sha256": "1727aa6a4b333cff986ac329f088ef595762b52a938d11c4bc41d5edceb94d46"
+  },
+  {
+    "source_id": "current_release_code/figure3_rerun/run_figure3.m",
+    "sha256": "47418302aa0e84bfd6fce14f865ff5e89dff764538ffe4e979d3e0c99c18f2ff"
+  },
+  {
+    "source_id": "current_release_code/redraw_paper.m",
+    "sha256": "107469f0e1db4c225cf6823bc297a33a883b3ef4eea7bfa904ab8d1dafc66510"
+  },
+  {
+    "source_id": "current_release_code/release_manifest.json",
+    "sha256": "731b129d499c340af542adfa92ad255a0685f12725302e10c84894dab31ac959"
+  },
+  {
+    "source_id": "current_release_code/startup_paper.m",
+    "sha256": "11e54cbe408af14e54071cb801b9f68e85a17fb94cebc372717d5c29733a5fba"
+  },
+  {
+    "source_id": "current_release_code/validate_release.m",
+    "sha256": "fd5f14a15cd49884e9703178ea7766ae1d314a0ce5b4fdde8f6b6d53a54380f9"
+  }
+]

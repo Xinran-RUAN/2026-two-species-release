@@ -1,0 +1,10 @@
+time,reason,failed,min_scalar,max_pressure,pressure_excess,min_species,scalar_residual,reconstruction,key
+0.024,scalar upper bound,0,0,1.16436772202255,0.164367722022546,NaN,2.82107670557252e-13,NaN,vacuum_dvd_25
+0.048,scalar upper bound,0,0,1.04352528091463,0.0435252809146269,NaN,8.65973959207622e-15,NaN,vacuum_dvd_25
+0.088,scalar upper bound,0,0,1.17234628077281,0.172346280772811,NaN,5.30575583468362e-13,NaN,vacuum_dvd_25
+0.128,scalar upper bound,0,0,1.12963932770692,0.129639327706921,NaN,7.82429676604579e-13,NaN,vacuum_dvd_25
+0.152,scalar upper bound,0,0,1.03426598357364,0.0342659835736365,NaN,7.99360577730113e-15,NaN,vacuum_dvd_25
+0.184,scalar upper bound,0,0,1.21055203828159,0.210552038281589,NaN,1.0325074129014e-14,NaN,vacuum_dvd_25
+0.04,scalar solve: rate and increment residual,0,0,0.989031509961252,0,NaN,3.46461748179649e-12,NaN,vacuum_dvd_50
+0.152,scalar upper bound,0,0,1.00839086327136,0.00839086327136185,NaN,1.22818422099158e-15,NaN,vacuum_dvd_50
+0.196,scalar solve: rate and increment residual,0,0,0.995743489802403,0,NaN,4.60202709273716e-12,NaN,vacuum_dvd_50

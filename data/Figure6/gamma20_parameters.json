@@ -1,0 +1,48 @@
+{
+  "parameters": {
+    "xmin": -10,
+    "xmax": 10,
+    "ymin": -10,
+    "ymax": 10,
+    "Nx": 500,
+    "Ny": 500,
+    "h": 0.04,
+    "tau": 0.01,
+    "T": 2.5,
+    "gamma": 20,
+    "pH": 1,
+    "growthRates": [
+      8,
+      4,
+      1.5
+    ],
+    "m": 3,
+    "exampleType": "localized_fast_clone",
+    "fastCenter": [
+      2.05,
+      0
+    ],
+    "fastSigma": 0.25,
+    "fastAmp": 60,
+    "slowCenter": [
+      -1,
+      -0.9
+    ],
+    "slowSigma": 0.4,
+    "slowAmp": 10
+  },
+  "paper_times": [
+    0,
+    1,
+    2.5
+  ],
+  "stored_times": [
+    0,
+    1,
+    2.5
+  ],
+  "source_final_time": 2.5,
+  "paper_final_time": 2.5,
+  "source_variant": "legacy_saved_run",
+  "producer_status": "Exact legacy production runner not present in the supplied source bundle; saved-data redraw is supported."
+}
